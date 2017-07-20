@@ -1,7 +1,7 @@
 javascript:
 
 (function () {
-
+/* Script Escrito por ThiioM :) */
 	!function(t,e){t.Lockr=function(t,e){"use strict";return e.prefix="",e._getPrefixedKey=function(t,e){return e=e||{},e.noPrefix?t:this.prefix+t},e.set=function(t,e,r){let a=this._getPrefixedKey(t,r);try{localStorage.setItem(a,JSON.stringify({data:e}))}catch(t){}},e.get=function(t,e,r){let a,i=this._getPrefixedKey(t,r);try{a=JSON.parse(localStorage.getItem(i))}catch(t){a=localStorage[i]?{data:localStorage.getItem(i)}:null}return null===a?e:"object"==typeof a&&void 0!==a.data?a.data:e},e}(t,{})}(this);
 
 	let temArqueiro = $.inArray('archer', game_data.units) > -1;
@@ -184,7 +184,7 @@ javascript:
             _Data.y = minha.alvoDessa.c.split("|")[1];
             _Data.input = "";
             _Data.attack = "l";
-
+		/* Script Escrito por ThiioM :) */
             setTimeout(() => {
                 $.ajax({
                     url:  "/game.php?village=" + minha.id + "&screen=place&ajax=confirm&h=" + csrf_token + "&client_time=" + Math.round(Timing.getCurrentServerTime() / 1e3),
