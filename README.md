@@ -2,6 +2,7 @@
 
 Esse projeto tem como objetivo fazer scripts para rodadas speed onde você precisa controlar mais de uma aldeia.
 
+## Assista o Vídeo 
 [![Watch the video](https://github.com/Thiiaguinho/TribalWars-Speed-Scripts/blob/master/E3MLY5hmSOmXUSB6ZL4xMg.png?raw=true)](https://youtu.be/mbGkDrAe7uM)
 
 ## Scripts Adicionados 
