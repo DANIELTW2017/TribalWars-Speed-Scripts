@@ -1,7 +1,7 @@
 javascript:
 
 function Conf_() {
-
+/* Script Escrito por ThiioM :) */
 /* Lockr Script */
 !function(t,e){t.Lockr=function(t,e){"use strict";return e.prefix="",e._getPrefixedKey=function(t,e){return e=e||{},e.noPrefix?t:this.prefix+t},e.set=function(t,e,r){var a=this._getPrefixedKey(t,r);try{localStorage.setItem(a,JSON.stringify({data:e}))}catch(t){}},e.get=function(t,e,r){var a,i=this._getPrefixedKey(t,r);try{a=JSON.parse(localStorage.getItem(i))}catch(t){a=localStorage[i]?{data:localStorage.getItem(i)}:null}return null===a?e:"object"==typeof a&&void 0!==a.data?a.data:e},e}(t,{})}(this);
 
@@ -219,7 +219,7 @@ $('#reset').click(function (e) {
 
     alert('Configurações Salvas');
 });
-
+/* Script Escrito por ThiioM :) */
 /* Save */
 $('#save').click(function (e) {
 	e.preventDefault();
