@@ -48,19 +48,13 @@ e as tropas para serem utilizados nos scripts...
 - Esse Script tem como objetivo permitir que você cunhe moedas na academia automaticamente
 ```
 
-### CunharMoeda-From1000.js
+### CunharMoedaFrom1000.js
 
 ```
 - Esse Script tem como objetivo permitir que você cunhe moedas na academia automaticamente,
 - passando as telas caso você tenha mais de 1000 aldeias.
 ```
 
-### CunharMoeda-From1000.js
-
-```
-- Esse Script tem como objetivo permitir que você cunhe moedas na academia automaticamente,
-- passando as telas caso você tenha mais de 1000 aldeias.
-```
 
 ### DemolirMuralha.js
 
