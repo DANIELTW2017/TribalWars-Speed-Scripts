@@ -1,7 +1,7 @@
 javascript:
 
 (function () {
-
+/* Script Escrito por ThiioM :) */
 	!function(t,e){t.Lockr=function(t,e){"use strict";return e.prefix="",e._getPrefixedKey=function(t,e){return e=e||{},e.noPrefix?t:this.prefix+t},e.set=function(t,e,r){let a=this._getPrefixedKey(t,r);try{localStorage.setItem(a,JSON.stringify({data:e}))}catch(t){}},e.get=function(t,e,r){let a,i=this._getPrefixedKey(t,r);try{a=JSON.parse(localStorage.getItem(i))}catch(t){a=localStorage[i]?{data:localStorage.getItem(i)}:null}return null===a?e:"object"==typeof a&&void 0!==a.data?a.data:e},e}(t,{})}(this);
 
 	let temArqueiro = $.inArray('archer', game_data.units) > -1;
@@ -91,13 +91,14 @@ javascript:
                         "TribalWars-Ajax": 1
                     },
                     success: function(data) {
-
+	
                     	if (!data.error) {
                         data_ = $(data.response.dialog);
                         if (!parametro[0]) {
 						parametro[0] = jQuery('input:eq(0)', data_).attr('name');
 						parametro[1] = jQuery('input:eq(0)', data_).val();
 				    	}
+				/* Script Escrito por ThiioM :) */
 						minha.lanceiros = apenasnumeros(jQuery('#units_entry_all_spear', data_).text());
 				        minha.espadachins = apenasnumeros(jQuery('#units_entry_all_sword', data_).text());
 				        minha.barbaros = apenasnumeros(jQuery('#units_entry_all_axe', data_).text());
