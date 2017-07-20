@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Cunhar Moeda
+// @name         Cunhar Moeda Fromm 1000
 // @include      https://*&screen=snob&mode=coin*
 // ==/UserScript==
 
