@@ -1,4 +1,4 @@
-# TribalWars No Tab Scripts
+# TribalWars Speed Scripts
 
 Esse projeto tem como objetivo fazer scripts para rodadas speed onde você precisa controlar mais de uma aldeia.
 
